@@ -1,0 +1,10 @@
+#gallery li{
+    list-style: none;
+    display:inline;
+}
+#slideShow{
+    width:95px;
+    height:60px;
+    position: relative;
+    overflow: hidden;
+}

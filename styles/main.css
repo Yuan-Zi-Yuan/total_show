@@ -1,0 +1,256 @@
+/*头部样式开始*/
+#header{
+    width: 100%;
+    background-image:url("../images/headerbg.png") ;
+    min-width:990px;
+}
+.logo{
+    position:relative;
+    width:990px;
+    height:65px;
+    margin:0 auto;
+}
+.logo img{
+    float:left;
+    margin:0 10px;
+}
+.logo input{
+    height:23px;
+    float:left;
+    margin:20px 0 3px 10px;
+    padding:3px 10px;
+    color: #8e8e8e;
+}
+/*皮肤样式开始*/
+.logo ul{
+    text-indent:-9999px;
+    position:absolute;
+    top:20px;
+    left:880px;
+    width:120px;
+    height:15px;
+}
+.logo li{
+    width:15px;
+    height:15px;
+    float:left;
+    overflow:hidden;
+    background-image:url("../images/theme.gif");
+    cursor:pointer;
+}
+#skin0{
+    background-position:0 0;
+}
+#skin1{
+    background-position:15px 0;
+}
+#skin2{
+    background-position:35px 0;
+}
+#skin3{
+    background-position:55px 0;
+}
+#skin4{
+    background-position:75px 0;
+}
+#skin5{
+    background-position:95px 0;
+}
+#skin0.selected{
+    background-position:0 15px;
+}
+#skin1.selected{
+    background-position:15px 15px;
+}
+#skin2.selected {
+    background-position:35px 15px;
+}
+#skin3.selected {
+    background-position:55px 15px;
+}
+#skin4.selected {
+    background-position:75px 15px;
+}
+#skin5.selected {
+    background-position:95px 15px;
+}
+/*皮肤样式结束*/
+/*导航样式开始*/
+.nav{
+    width:990px;
+    height:37px;
+    line-height:37px;
+    margin:0 auto;
+    clear:left;
+    background-color: #4A4A4A;
+}
+.nav a{
+    float:left;
+    font-size: 14px;
+    font-weight:700;
+    padding:0 20px;
+    color:#ffffff;
+}
+/*导航样式结束*/
+/*头部样式结束*/
+/*主体样式开始*/
+#content{
+    width:990px;
+    margin:10px auto;
+}
+/*主体左栏商品分类样式开始*/
+.left{
+    width:186px;
+    float:left;
+    border: 1px solid #6e6e6e;
+    margin:0 11px 10px 0;
+}
+.left h3{
+    background-color: #6e6e6e;
+    color:#fff;
+    height:30px;
+    line-height:30px;
+    text-indent:13px;
+    font-size:14px;
+}
+.left h4{
+    padding:5px 10px;
+}
+.left a{
+    float:left;
+    padding:10px;
+}
+.left a:link,.left a:visited{
+    color:#4A4A4A;
+}
+.left a:hover,.left a:active{
+    color:#008CD7;
+    text-decoration: none;
+}
+/*主体左栏商品分类样式结束*/
+/*主体右栏图片广告开始*/
+.center{
+    width:791px;
+    height:321px;
+    float:left;
+}
+.center_left{
+    width:550px;
+    height:351px;
+    overflow:hidden;
+    margin-right: 11px;
+    float:left;
+}
+.center_l_bd{
+    width:550px;
+    float:left;
+    position:relative;
+}
+.center_l_bd img{
+    position:absolute;
+}
+.center img{
+    float:left;
+}
+.num{
+    width:200px;
+    height:20px;
+    position:absolute;
+    top:435px;
+    left:600px;
+}
+.num span{
+    width:30px;
+    height:20px;
+    float:left;
+    background-image:url("../images/cycle.png");
+    background-repeat:no-repeat;
+    text-indent: -9999px;
+}
+/*主体右栏图片广告结束*/
+/*主体右栏最新动态开始*/
+.notice{
+    width:228px;
+    float:left;
+    border:1px solid #dfdfdf;
+    margin-top:10px;
+}
+.notice h4{
+    border-bottom:1px solid #dfdfdf;
+    padding-left:10px;
+    height:23px;
+    line-height:23px;
+}
+.notice ul a{
+    padding-left:10px;
+    height:20px;
+    line-height:20px;
+    font-size:12px;
+    color:#666666;
+    text-decoration:none;
+}
+/*主体右栏最新动态结束*/
+/*主体下栏样式开始*/
+.bottom{
+    width:791px;
+    float:left;
+}
+.bottom .active {
+    float:left;
+    width:791px;
+    height:40px;
+    border-bottom:1px solid #dfdfdf;
+}
+.bottom .active h4{
+    float:left;
+    line-height:40px;
+    margin-right:550px;
+}
+.bottom .active a{
+    background-color: #E4E4E4;
+    color: #000000;
+    float:left;
+    font-size:12px;
+    margin:10px 5px 5px ;
+    padding:5px;
+}
+.bottom .select a{
+    background-color: #FA5889;
+    color:#ffffff;
+}
+.img_box{
+    float:left;
+    width:780px;
+    height:200px;
+    margin-top:10px;
+    overflow:hidden;
+    position:relative;
+}
+.img_box .img{
+    width:3120px;
+    position:absolute;
+}
+.img_box li{
+    float:left;
+    padding:6px;
+}
+.img_box h5{
+    width:183px;
+    height:25px;
+    line-height:25px;
+    text-align: center;
+    background-color: #EFEFEF;
+}
+/*主体下栏样式结束*/
+/*主体样式结束*/
+/*底部样式开始*/
+#footer{
+    width:990px;
+    margin:0 auto;
+    clear:left;
+    height:20px;
+    line-height:20px;
+    text-align: center;
+    color:#666666;
+}
+/*底部样式结束*/

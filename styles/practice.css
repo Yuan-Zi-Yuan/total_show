@@ -1,0 +1,25 @@
+@charset "utf-8";
+img{border:0px;}
+*{margin:0; padding:0;text-decoration:NONE; list-style:none;}
+#total{width:auto;height:auto;}
+#first{ width:1350px;height:666px; background-image:url("../images/horse图片/header-bg.jpg");}
+.logo{position:relative;margin-left: 550px;margin-right: 550px;margin-top: 30px;}
+#first_2{  margin-top:30px;width:1350px;height: 50px;background: rgba(0,0,0,0.5);}
+#first_2l{ margin-left:180px;float:left; width:550px; height:50px;}
+#first_2l ul li{ margin-top:10px; margin-bottom:10px; text-align:center;padding-top: 5px;padding-bottom: 5px; padding-left: 10px; padding-right: 10px; font-size: 13px;color:white; line-height: 17px;  float:left;}
+#first_2r{ float:left; width:282px;height:50px;}
+#first_2r_s{float:left;width:262px; height:30px;}
+#search{ margin-top:10px; border-radius: 0; border:1px; float:left; padding-top:4px; padding-bottom:4px; padding-left:10px; padding-right:10px; width:98px;height:22px; }
+#search_r{ margin-top:10px;float:left;border:0px; width:30px; height:30px;}
+#btc{ margin-top:10px; margin-left:10px;float:left; width:44px;height:30px;}
+#bte{ margin-top:10px;float:left; width:56px;height:30px;}
+.box{width:1350px;height:273px;position:absolute;}
+.imgsBoxbox{ clear: both;}
+.clickButtons{ width:120px;height:20px;position:absolute;bottom:10px;left:615px;}
+.active{color:white;}
+#second{positive:relative;margin-left:170px;width:981px;height:370px;}
+.secondmodel{ border:1px #cccccc solid;margin-left:30px;float:left;width:295px;height:370px;}
+.second_1p{float:left;width:295px;height:205px;}
+.second_1t{text-align:center;margin-top:240px;}
+#third{margin-left:170px;width:981px;height:60px;}
+.picture{margin-top:50px;margin-left:21px;float:left;width:175px;height:60px;}

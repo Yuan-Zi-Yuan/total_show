@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+}
+.bot{
+    border-bottom:2px solid red;
+    margin:0 auto;
+    width:740px;
+    height:40px;
+    margin-top:150px;
+}
+li{
+    float:left;
+    list-style-type:none;
+    height:20px;
+    padding:10px;
+    line-height:20px;
+}
+.selected{
+    background-color: red;
+}
+a:link,a:visited{
+    color:black;
+}
+a:hover,a:active{
+    color: red;
+}
+.selected a{
+    color:white;
+}

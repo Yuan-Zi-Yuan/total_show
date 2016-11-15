@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>轮换</title>
+    <script language="JavaScript" src="scripts/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var it=self.setInterval(huan,2000);
+            var i=0;
+            function huan(){
+                if(i<3){
+                    i++;
+                }
+                else {i=0;}
+                $(".imgs>img").hide();
+                $(".imgs>img").eq(i).show();
+            }
+            $(".boxbutton>a").click(function(){
+                $(".imgs>img").hide();
+                var idx=$(this).index();
+                $(".imgs>img").eq(idx).show();
+                return false;
+            })
+        })
+    </script>
+    <style>
+        .box{width:400px;height:600px;}
+        .imgs{position:relative;}
+        .boxbutton{position:absolute;top:580px;}
+    </style>
+</head>
+<body>
+    <div class="imgbox">
+        <div class="imgs" style="width:400px;height:600px;">
+            <img class="box" src="images/轮换图片/feng.jpg"/>
+            <img class="box" src="images/轮换图片/lyf.jpg"/>
+            <img class="box" src="images/轮换图片/yi.jpg"/>
+            <img class="box" src="images/轮换图片/img-cff6b053330c4adde91802d2bd5e2715.jpg"/>
+        </div>
+        <div class="boxbutton" style="width: 100px; height:20px;bottom:10px;left:150px;position:absolute">
+            <a href="images/轮换图片/feng.jpg" >1</a>
+            <a href="images/轮换图片/lyf.jpg" >2</a>
+            <a href="images/轮换图片/yi.jpg" >3</a>
+            <a href="images/轮换图片/img-cff6b053330c4adde91802d2bd5e2715.jpg">4</a>
