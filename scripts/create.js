@@ -72,7 +72,7 @@ function preparePlaceholder()
 {
     var placeholder=document.createElement("img");
     placeholder.setAttribute("id","placeholder");
-    placeholder.setAttribute("src","images/9840.jpg_wh300.jpg");
+    placeholder.setAttribute("src","images/create_images/9840.jpg_wh300.jpg");
     placeholder.setAttribute("alt","花朵占位符");
     var description=document.createElement("p");
     description.setAttribute("id","description");
