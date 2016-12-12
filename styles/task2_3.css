@@ -1,0 +1,37 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+#whole{
+    margin:0 auto;
+    width:462px;
+    height:350px;
+}
+#box{
+    position:relative;
+    width:442px;
+    height:320px;
+    overflow:hidden;
+}
+#img{
+    position:absolute;
+    width:1768px;
+    height:300px;
+}
+#img li{
+    float:left;
+}
+#check{
+    margin-left:25%;
+}
+#circle{
+    position:absolute;
+    top:270px;
+    left:180px;
+}
+#circle li{
+    float:left;
+    margin-left:3px;
+}

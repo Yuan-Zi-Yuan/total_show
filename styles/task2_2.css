@@ -1,0 +1,7 @@
+.sign{display:inline;}
+/*倒计时绝对定位到右下角*/
+#countdown{
+    position:absolute;
+    top:85%;
+    left:60%;
+}
